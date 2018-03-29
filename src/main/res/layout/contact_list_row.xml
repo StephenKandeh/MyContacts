@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/row_height"
+              android:paddingLeft="@dimen/vertical_small_margin"
+              android:paddingRight="@dimen/vertical_small_margin">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:src="@drawable/default_avatar"
+        android:padding="@dimen/avatar_inner_padding"
+        android:id="@+id/imageView"/>
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/vertical_large_margin"
+        android:paddingRight="@dimen/vertical_large_margin"
+        android:text="@string/test_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:id="@+id/text_row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

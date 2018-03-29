@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gamee.mycontacts.ContactEditActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="false"
+        android:id="@+id/edit_contact_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:paddingLeft="@dimen/vertical_small_margin"
+        android:id="@+id/name"
+        android:text="@string/name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:paddingLeft="@dimen/vertical_small_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:textSize="@dimen/edit_contact_name_size"
+        android:id="@+id/edit_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:paddingBottom="@dimen/vertical_small_margin"
+        android:paddingLeft="@dimen/vertical_small_margin"
+        android:id="@+id/phone_numbers"
+        android:text="@string/phone_number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/vertical_small_margin"
+        android:orientation="vertical"
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="@dimen/vertical_small_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/phone_number_add_button"
+        android:text="@string/add_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:paddingBottom="@dimen/vertical_small_margin"
+        android:paddingLeft="@dimen/vertical_small_margin"
+        android:id="@+id/emails"
+        android:text="@string/email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/vertical_small_margin"
+        android:orientation="vertical"
+        android:id="@+id/email_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="@dimen/vertical_small_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/email_add_button"
+            android:text="@string/add_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

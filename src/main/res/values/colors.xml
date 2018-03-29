@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Default Android Color Palette-->
+    <color name="colorPrimary">#75069912</color>
+    <color name="colorPrimaryDark">#aa015c12</color>
+    <color name="colorAccent">#c1e3e797</color>
+    <color name="background">#23b69682</color>
+
+</resources>
